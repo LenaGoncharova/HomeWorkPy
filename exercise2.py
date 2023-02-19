@@ -21,11 +21,11 @@ sum=a1+a2+a3
 print(f' {a} -> {sum} ( {a1} + {a2} + {a3} ) ')
 print(" {} -> {} ( {} + {} + {} )".format(a,sum,a1,a2,a3))
 
-#  a= int(input('введите  число:  '))
-# print( 'сумма числа',a,'->')
-# sum=0
-# while a>0:
-#     f=a%10
-#     sum = sum+f
-#     a=a//10
-# print (sum )
+# a= int(input('введите  число:  '))
+print( 'сумма числа',a,'->')
+sum=0
+while a>0:
+    f=a%10
+    sum = sum+f
+    a=a//10
+print (sum )
