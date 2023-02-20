@@ -10,4 +10,4 @@
 n= int(input('введите размер  n -'))
 m= int(input('введите размер  m -'))
 k= int(input('введите размер отломенных долек k -'))
-print('Yes'  if( k%m==0 or  k%n==0 and  k <= n*m ) else'No') 
+print('Yes'  if( k%m==0 or  k%n==0 and  k < n*m ) else'No') 
