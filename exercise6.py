@@ -36,3 +36,22 @@ while a1>0 :
         a1=a1//10 
 print('yes'if  sum==sum1 else'no')
 
+n = int(input())
+n1 = n // 100000
+n2 = (n % 100000) // 10000
+n3 = (n % 10000) // 1000
+n4 = (n % 1000) // 100
+n5 = (n % 100) // 10
+n6 = n % 10
+if n1 + n2 + n3 == n4 + n5 + n6:
+    print('yes')
+else:
+    print('no')
+# Можете рассказать про решение через нумерацию строк
+n = input()
+if int(n[0]) + int(n[1]) + int(n[2]) == int(n[3]) + int(n[4]) + int(n[5]):
+    print('yes')
+else:
+    print('no')
+
+
