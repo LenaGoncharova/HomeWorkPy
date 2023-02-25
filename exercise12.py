@@ -11,5 +11,6 @@ p=int(input('введите произведение  чисел: '))
 for i in range(1000):
     for j in range (10000):
         if i+j==s and i*j== p:
+          
           print (f'x =', i, 'y =',j)
         
