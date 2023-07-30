@@ -15,10 +15,10 @@ for i in range(1000):
           print (f'x =', i, 'y =',j)
 
 
-# s = int(input("Введите сумму чисел S: "))
-# p = int(input("Введите произведение чисел P: "))
-# d = s*s-4*(p)
-# x1 = int((s+pow(d, 0.5))/2)
-# x2 = int((s-pow(d, 0.5))/2)
-# print(f'{s} {p} --> {x1} {x2}')
+s = int(input("Введите сумму чисел S: "))
+p = int(input("Введите произведение чисел P: "))
+d = s*s-4*(p)
+x1 = int((s+pow(d, 0.5))/2)
+x2 = int((s-pow(d, 0.5))/2)
+print(f'{s} {p} --> {x1} {x2}')
         

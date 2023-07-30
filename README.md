@@ -19,7 +19,7 @@ print(f'{d:.2f}')-->100.00
 Можно вместо пробелов добавить незначащие нули, для этого нужно подписать 0 перед количеством разрядов
 n = 12345
 print(f'{n:08d}')-->00012345
-print(f'{n:07d}'-->0012345
+print(f'{n:07d}')-->0012345
 
 # Можно также влиять на знак разделителя между группами чисел, посмотрите пример ниже
 n = 12345678912345
@@ -49,7 +49,7 @@ print(f"|{number:^25}|")
 number_first = 5
 number_second = 7
 if number_first > number_second # !!!!!-нет двоеточия(:)
-print(number_first
+print(number_first)
 
 ● IndentationError(Ошибка отступов)
 number_first = 5
@@ -79,6 +79,5 @@ print(names)
 text = 'Python'
 print(int(text))
 # Нельзя символы перевести в целые значения
-
 
 
