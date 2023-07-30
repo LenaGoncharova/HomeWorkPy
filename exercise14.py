@@ -2,7 +2,7 @@
 
 
 
-n=int(input('Введите число N:'))
+n=int(input('Введите число n:'))
 k=1
 while 2**k <=n:
     print(f'2**{k}={2**k}')
