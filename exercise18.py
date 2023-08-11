@@ -3,10 +3,10 @@
 #list_1 = [1, 2, 3, 4, 5]
 #k = 6
 # 5
-list_1 = [ 1,5, 8]
+list_1 = [ 1,5,8]
 k= int(input( "введите любое число- "))
 num=abs(list_1[0]-k)
-index1=0
+# index1=0
 for i in range(1,len(list_1)):
     num1=abs(list_1[i]-k)
     if num1<=num:
