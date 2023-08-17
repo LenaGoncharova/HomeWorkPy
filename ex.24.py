@@ -12,11 +12,9 @@
 # находясь перед некоторым кустом заданной во входном файле грядки.
 
 
-s="бвгдейк"
-d=dict()
-
-g=[i+1 for i in range (len(s))]
-print(g)
-for i in range(len(s)):
-    d[s[i]]=g[i]
-print(d)
+n=int(input('введите количество кустов- '))
+m=[]
+for i in range(n):
+    m.append(int(input("введите количесто ягод- ")))
+m1=sorted(m)
+print("максимальное количество собранных ягод:",m1[-2]+m1[-1])
