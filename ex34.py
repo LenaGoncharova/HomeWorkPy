@@ -19,19 +19,14 @@ def words(str):
             if j in "уеаоыэяию":
                 count += 1
         lst_count.append(count) 
-        return lst_count[0] 
-    
-        
-#     if len(lst_count)==lst_count.count(lst_count[0]):
-#                 return"“Парам пам-пам”"
-#     return "Пам парам"
-# str=input( "введите строку ")
-# # res=words(str)
-# print(res)
-res=words('папа мама дада')
-res1=lambda lst[0]:"gf" if len(lst)=lst[0] else "ff"
-res=words('папа мама дада')
+      
+    if len(lst_count)==lst_count.count(lst_count[0]):
+                return"“Парам пам-пам”"
+    return "Пам парам"
+str=input( "введите строку ")
+res=words(str)
 print(res)
+
 
 
 
