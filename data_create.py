@@ -1,10 +1,10 @@
 
 def name_data():
-    name=input("Введите Ваше имя ")
+    name=input("Введите Ваше имя ").capitalize()
     return name
 
 def surname_data():
-    surname=input("Введите Вашу фамилию ")
+    surname=input("Введите Вашу фамилию ").capitalize()
     return surname
 
 
@@ -14,5 +14,6 @@ def phone_data():
 
 
 def address_data():
-    address=input("Введите Ваш адресс ")
+    address=input("Введите Ваш адресс ").capitalize()
     return  address
+
